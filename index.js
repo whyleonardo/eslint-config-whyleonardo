@@ -31,6 +31,8 @@ module.exports = {
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "prettier/prettier": ["error", {
+            "useTabs": false,
+            "tabWidth": 2,
             "singleQuote": true,
             "trailingComma": "none",
             "arrowParens": "always",
@@ -38,9 +40,7 @@ module.exports = {
             "endOfLine": "auto"
         }
         ],
-
-        "import-helpers/order-imports": [
-            "warn",
+        "import-helpers/order-imports": ["warn",
             {
                 "newlinesBetween": "always",
                 "groups": [
@@ -53,10 +53,6 @@ module.exports = {
                 ],
                 "alphabetize": { "order": "asc", "ignoreCase": true }
             }
-        ],
-        "indent": [
-            "error",
-            "tab"
         ],
         "linebreak-style": [
             "error",
