@@ -31,7 +31,7 @@ module.exports = {
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "prettier/prettier": ["error", {
-            "useTabs": false,
+            "useTabs": true,
             "tabWidth": 2,
             "singleQuote": true,
             "trailingComma": "none",
