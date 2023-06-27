@@ -54,10 +54,6 @@ module.exports = {
                 "alphabetize": { "order": "asc", "ignoreCase": true }
             }
         ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
         "quotes": [
             "error",
             "single"
